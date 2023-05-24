@@ -60,7 +60,7 @@ const Navbar = () => {
                 <button
                   type="button"
                   onClick={handleSignOut}
-                  className="bg-red-500 hover:bg-red-700 text-xs md:text-md text-white font-bold px-2 py-2 rounded"
+                  className="bg-red-500 hover:bg-red-700 text-xs md:text-base text-white font-semibold px-2 py-2 rounded"
                 >
                   Sign Out
                 </button>
@@ -74,7 +74,7 @@ const Navbar = () => {
                   onClick={() => {
                     signIn(provider.id);
                   }}
-                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                  className="bg-green-500 hover:bg-green-700 text-xs md:text-base text-white font-semibold px-2 py-2 rounded"
                 >
                   Sign In
                 </button>
